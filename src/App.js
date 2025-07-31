@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import { Link } from 'react-router-dom'
+import Header from './header.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div style={{boxShadow: "5px 1px 10px rgba(0, 0, 0, 0.2)", position:"absolute", width: "100%"}}>
+      <Header></Header>
+      </div>
+      <div style={{height: "93vh", backgroundColor: "#fff5f4", paddingTop:"7vh"}}>
+
+      </div>
     </div>
   );
 }

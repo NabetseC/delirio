@@ -1,0 +1,26 @@
+.header{
+    height: 7vh;
+    background-color:#fffcf9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    box-shadow: 5px, 1px, 10px, #000;
+}
+.headerLink{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: large;
+    padding: 1vw;
+}
+.headerLink:hover{
+
+    color: #241909;
+
+}
+
+.logo{
+    padding-left: 20vw;
+    width: 10vw;
+    height: 7vh;
+}
