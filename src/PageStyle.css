@@ -26,9 +26,6 @@
     fill: red;
 }
 
-.logo /logo.svg{
-    fill:red
-}
 
 .gradientTxt{
     background: linear-gradient(160deg, #f76767 30%, #ffca7b 100%);
