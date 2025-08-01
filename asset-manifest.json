@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/delirioWeb/static/css/main.bc238482.css",
-    "main.js": "/delirioWeb/static/js/main.77fc1014.js",
-    "static/js/453.7b7b0501.chunk.js": "/delirioWeb/static/js/453.7b7b0501.chunk.js",
-    "static/media/fitech2.mp4": "/delirioWeb/static/media/fitech2.41d6c6d9805f74c0080e.mp4",
-    "static/media/logo.svg": "/delirioWeb/static/media/logo.818e04339725e7853fbef3a5d6f7556b.svg",
-    "static/media/redLogo.svg": "/delirioWeb/static/media/redLogo.8498f3c2decb85f6a6910a2798bf7e99.svg",
-    "index.html": "/delirioWeb/index.html",
-    "main.bc238482.css.map": "/delirioWeb/static/css/main.bc238482.css.map",
-    "main.77fc1014.js.map": "/delirioWeb/static/js/main.77fc1014.js.map",
-    "453.7b7b0501.chunk.js.map": "/delirioWeb/static/js/453.7b7b0501.chunk.js.map"
+    "main.css": "/delirio/static/css/main.bc238482.css",
+    "main.js": "/delirio/static/js/main.66f09881.js",
+    "static/js/453.7b7b0501.chunk.js": "/delirio/static/js/453.7b7b0501.chunk.js",
+    "static/media/fitech2.mp4": "/delirio/static/media/fitech2.41d6c6d9805f74c0080e.mp4",
+    "static/media/logo.svg": "/delirio/static/media/logo.818e04339725e7853fbef3a5d6f7556b.svg",
+    "static/media/redLogo.svg": "/delirio/static/media/redLogo.8498f3c2decb85f6a6910a2798bf7e99.svg",
+    "index.html": "/delirio/index.html",
+    "main.bc238482.css.map": "/delirio/static/css/main.bc238482.css.map",
+    "main.66f09881.js.map": "/delirio/static/js/main.66f09881.js.map",
+    "453.7b7b0501.chunk.js.map": "/delirio/static/js/453.7b7b0501.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc238482.css",
-    "static/js/main.77fc1014.js"
+    "static/js/main.66f09881.js"
   ]
 }
