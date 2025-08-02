@@ -65,6 +65,12 @@
   background-color: #333;
   border-radius: 2px;
 }
+.video{
+  width:60vw;
+  margin-top:50px;
+  border-radius:20px;
+  object-fit:cover;
+}
 
 /* Responsive behavior */
 @media screen and (max-width: 768px) {
@@ -101,6 +107,12 @@
   .headerLink, .waitlistButtonSmall {
     width: 100%;
   }
+  .video{
+  width:90vw;
+  margin-top:50px;
+  border-radius:20px;
+  object-fit:cover;
+}
 }
 
 .logo{

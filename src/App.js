@@ -34,7 +34,7 @@ function App() {
           </button>
           </div>
           <div>
-            <video id="demo" src = {demoVideo} style={{width:"60vw", height:"", marginTop:"50px", borderRadius:"20px", objectFit:"cover"}} autoPlay loop muted playsInline>
+            <video id="demo" src = {demoVideo} className='video' autoPlay loop muted playsInline>
             </video>
           </div>
       </div>
