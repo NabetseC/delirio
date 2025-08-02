@@ -10,10 +10,12 @@ function Header(){
             <img src= {logo} alt = "Logo" className ="logo"></img>
             <p style={{fontSize:"1.5rem", fontWeight:"600", color:"#F76767"}}>delirio</p>
             </div>
-            <div style={{paddingRight: "20vw"}}>
-                <Link to = "/" className="headerLink">Home</Link>
-                <Link to = "/" className="headerLink">Features</Link>
-                <Link to = "/" className="headerLink">Founders</Link>
+            <div style={{paddingRight: "20vw", display:"flex", justifyContent:"center"}}>
+                <Link to="/App.js" className='headerLink'>Home</Link>
+                <a href="/#features" className='headerLink'>Features</a>
+                <button className='waitlistButtonSmall' style={{width:"10rem"}}>
+                    Join waitlist
+                </button>
             </div>
         </div>
     )

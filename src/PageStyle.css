@@ -1,5 +1,5 @@
 .header{
-    height: 7vh;
+    height: 8vh;
     background-color:#fffcf9;
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,9 @@
     fill: red;
 }
 
-
+.App{
+    background-color:#fff5f4 ;
+}
 .gradientTxt{
     background: linear-gradient(160deg, #f76767 30%, #ffca7b 100%);
     -webkit-background-clip: text;
@@ -51,4 +53,176 @@
 .waitlistButton:hover{
     transform: translateY(-5px);
     box-shadow: 0px 10px 10px #00000018;
+}
+
+.waitlistButtonSmall{
+    background: linear-gradient(160deg, #f76767 30%, #ffca7b 100%);
+    color:#fff; 
+    padding:1.1vh .5vw;
+    font-size:large;
+    font-weight:600;
+    border-radius: 2rem;
+    border: none;
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.waitlistButtonSmall:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 10px #00000018;
+}
+.secondSection{
+    background: linear-gradient(0deg, #ffca7b 30.16%, rgba(0, 0, 0, 0) 85.44%),url(./dots.png) lightgray;
+    background-color: #f76767;
+    width: 100%;
+    margin-top: 5vh;
+    padding-top: 3vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.gradientTxt2{
+    background: linear-gradient(160deg, #fff5f4 30%, #fffcf9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.feature-cards {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.bubbles{
+    width:30%; 
+    height: 30vh;
+    background-color:#fffcf9;
+    border-radius: 40px;
+}
+
+.card {
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+.iconText{
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background-color: #f8981d;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-left: 5%;
+}
+
+.card p {
+  margin: 0;
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.delirio-footer {
+  background-color: white;
+  padding: 6vh 5vw 2vh;
+  border-top: 1px solid #e6e6e6;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 3vh;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  min-width: 180px;
+  margin-bottom: 2vh;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #f76767;
+  margin-bottom: 0.5rem;
+}
+
+.footer-logo-img {
+  margin-right: 8px;
+  font-size: 1.4rem;
+  width: 5vh;
+}
+
+.footer-column h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  color: #333;
+}
+
+.footer-column a {
+  color: #666;
+  text-decoration: none;
+  margin: 4px 0;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.footer-column a:hover {
+  color: #f76767;
+}
+
+.tagline {
+  font-size: 0.95rem;
+  color: #666;
+  margin-top: 4px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #eee;
+  padding-top: 2vh;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  color: #999;
+}
+
+.legal-links {
+  display: flex;
+  gap: 20px;
+}
+
+.legal-links a {
+  color: #999;
+  text-decoration: none;
+}
+
+.legal-links a:hover {
+  color: #f76767;
 }
