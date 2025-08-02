@@ -1,3 +1,4 @@
+/* Header layout */
 .header{
     height: 8vh;
     background-color:#fffcf9;
@@ -6,21 +7,104 @@
     align-items: center; 
     box-shadow: 5px, 1px, 10px, #000;
 }
-.headerLink{
-    color: #535353;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: large;
-    padding: 1vw;
-}
-.headerLink:hover{
-
-    color: #241909;
-
-}
 
 .logo{
     padding-left: 20vw;
+    width: 5.1vw;
+    height: 6vh;
+    fill: red;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.brand-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #F76767;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-right: 20vw;
+
+}
+
+.headerLink {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.headerLink:hover {
+  color: #F76767;
+}
+
+
+
+/* Burger menu */
+.burger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 2px;
+}
+
+/* Responsive behavior */
+@media screen and (max-width: 768px) {
+  .burger {
+    display: flex;
+    margin-right: 10vw;
+  }
+
+  .header-right {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #fffcf9;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 0rem;
+    gap: 1rem;
+    display: none;
+    margin-right: 0vw;
+  }
+
+  .header-right.open {
+    display: flex;
+
+    justify-content: center;
+  }
+
+
+  .header-left{
+    margin-left: 0vw;
+  }
+
+  .headerLink, .waitlistButtonSmall {
+    width: 100%;
+  }
+}
+
+.logo{
+    padding-left: 10vw;
     width: 5.1vw;
     height: 6vh;
     fill: red;
@@ -58,7 +142,7 @@
 .waitlistButtonSmall{
     background: linear-gradient(160deg, #f76767 30%, #ffca7b 100%);
     color:#fff; 
-    padding:1.1vh .5vw;
+    padding:1.3vh .7vw;
     font-size:large;
     font-weight:600;
     border-radius: 2rem;

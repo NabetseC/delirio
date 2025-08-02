@@ -1,23 +1,33 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import logo from "./redLogo.svg"
-import "./PageStyle.css"
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import logo from "./redLogo.svg";
+import "./PageStyle.css";
 
-function Header(){
-    return(
-        <div className='header'>
-            <div style={{display:"flex", alignItems:"center"}}>
-            <img src= {logo} alt = "Logo" className ="logo"></img>
-            <p style={{fontSize:"1.5rem", fontWeight:"600", color:"#F76767"}}>delirio</p>
-            </div>
-            <div style={{paddingRight: "20vw", display:"flex", justifyContent:"center"}}>
-                <Link to="/App.js" className='headerLink'>Home</Link>
-                <a href="/#features" className='headerLink'>Features</a>
-                <button className='waitlistButtonSmall' style={{width:"10rem"}}>
-                    Join waitlist
-                </button>
-            </div>
-        </div>
-    )
+function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  return (
+    <div className='header'>
+      <div className='header-left'>
+        <img src={logo} alt="Logo" className="logo" />
+        <p className="brand-name">delirio</p>
+      </div>
+
+      <div className={`header-right ${menuOpen ? 'open' : ''}`}>
+        <Link to="/" className='headerLink'>Home</Link>
+        <a href="/#features" className='headerLink'>Features</a>
+        <button className='waitlistButtonSmall'>
+          Join waitlist
+        </button>
+      </div>
+
+      <div className="burger" onClick={() => setMenuOpen(!menuOpen)}>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+      </div>
+    </div>
+  );
 }
-export default Header
+
+export default Header;
