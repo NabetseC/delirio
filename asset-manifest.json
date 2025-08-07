@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/delirio/static/css/main.24e04855.css",
-    "main.js": "/delirio/static/js/main.75b8983f.js",
+    "main.css": "/delirio/static/css/main.b2d734c9.css",
+    "main.js": "/delirio/static/js/main.a01fa649.js",
     "static/js/453.7b7b0501.chunk.js": "/delirio/static/js/453.7b7b0501.chunk.js",
-    "static/media/fitech2.mp4": "/delirio/static/media/fitech2.41d6c6d9805f74c0080e.mp4",
+    "static/media/demoVid.mp4": "/delirio/static/media/demoVid.a3cfb8b57da8aeea653d.mp4",
     "static/media/logo.svg": "/delirio/static/media/logo.818e04339725e7853fbef3a5d6f7556b.svg",
     "static/media/redLogo.svg": "/delirio/static/media/redLogo.8498f3c2decb85f6a6910a2798bf7e99.svg",
     "static/media/multiple.svg": "/delirio/static/media/multiple.27479e10a70a47691bb88e667db737b0.svg",
     "static/media/puzzle.svg": "/delirio/static/media/puzzle.89d3cfa0839168549ec9d07e9c2dd39c.svg",
     "static/media/adapt.svg": "/delirio/static/media/adapt.17ce169e6c0ac69ae9fb806eaf6ab7f8.svg",
     "index.html": "/delirio/index.html",
-    "main.24e04855.css.map": "/delirio/static/css/main.24e04855.css.map",
-    "main.75b8983f.js.map": "/delirio/static/js/main.75b8983f.js.map",
+    "main.b2d734c9.css.map": "/delirio/static/css/main.b2d734c9.css.map",
+    "main.a01fa649.js.map": "/delirio/static/js/main.a01fa649.js.map",
     "453.7b7b0501.chunk.js.map": "/delirio/static/js/453.7b7b0501.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24e04855.css",
-    "static/js/main.75b8983f.js"
+    "static/css/main.b2d734c9.css",
+    "static/js/main.a01fa649.js"
   ]
 }
