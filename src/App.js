@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom'
 import Header from './header.js'
 import "./PageStyle.css"
 import ChangingText from "./changingText.js"
-import demoVideo from "./fitech2.mp4"
 import Footer from './footer.js'
 import puzzle from "./puzzle.svg"
 import multiple from "./multiple.svg"
 import adapt from "./adapt.svg"
+import VideoPlayer from './videoPlayer.js';
 
 function App() {
   return (
@@ -34,8 +34,7 @@ function App() {
           </button>
           </div>
           <div>
-            <video id="demo" src = {demoVideo} className='video' autoPlay loop muted playsInline>
-            </video>
+            <VideoPlayer></VideoPlayer>
           </div>
       </div>
       <div className='secondSection' id="features" style={{display:"flex", justifyContent:"center", flexDirection:"column", alignItems:"center", paddingBottom:"17vh"}}>

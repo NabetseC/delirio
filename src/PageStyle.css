@@ -66,10 +66,32 @@
   border-radius: 2px;
 }
 .video{
-  width:60vw;
+  height:90vh;
   margin-top:50px;
   border-radius:20px;
   object-fit:cover;
+}
+.video-container {
+  position: relative;
+  width: fit-content;
+  display: inline-block;
+}
+
+.mute-button {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 6px;
+  padding: 20px 24px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.mute-button:hover {
+  background: rgba(255, 255, 255, 1);
 }
 
 /* Responsive behavior */
