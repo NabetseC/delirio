@@ -16,9 +16,11 @@ function Header() {
       <div className={`header-right ${menuOpen ? 'open' : ''}`}>
         <Link to="/" className='headerLink'>Home</Link>
         <a href="/#features" className='headerLink'>Features</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNnvzz5JRGhP8wyLbSyGhI3XWY5LUx6USZJSU00MXFqu5bIA/viewform?usp=header" target='_blank' className = "headerWaitlista">
         <button className='waitlistButtonSmall'>
           Join waitlist
         </button>
+        </a>
       </div>
 
       <div className="burger" onClick={() => setMenuOpen(!menuOpen)}>

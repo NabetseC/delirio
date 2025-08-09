@@ -24,8 +24,8 @@ function Footer() {
 
         <div className="footer-column">
           <h4>Company</h4>
-          <a href="mailto:delirio@outlook.com">Email Us</a>
-          <a href="https://www.linkedin.com/in/andersonblanco010/">LinkedIn</a>
+          <a href="mailto:d3lirio01@gmail.com">Email Us</a>
+          <a href="https://www.linkedin.com/company/d3lirio/about/" target='_blank'>LinkedIn</a>
         </div>
       </div>
 

@@ -9,14 +9,30 @@ import puzzle from "./puzzle.svg"
 import multiple from "./multiple.svg"
 import adapt from "./adapt.svg"
 import VideoPlayer from './videoPlayer.js';
+import linked from "./linke.png"
 
 function App() {
   return (
     <div className="App">
+      
       <div style={{boxShadow: "-2px 0px 5px rgba(0, 0, 0, 0.2)", position:"absolute", width: "100%"}}>
       <Header></Header>
       </div>
-      <div style={{height: "", backgroundColor: "#fff5f4", paddingTop:"12vh", display:"flex", justifyContent:"center", flexDirection:"column"}}>
+      
+      <div style={{height: "", backgroundColor: "#fff5f4", paddingTop:"11vh", display:"flex", justifyContent:"center", flexDirection:"column"}}>
+        <div className="socialLinks">
+            <a href="https://www.linkedin.com/company/d3lirio/about/" target='_blank' rel="noopener noreferrer">
+              <img src={linked} alt="LinkedIn" style={{width:"35px", height:"35px", transition:"transform 0.2s"}} 
+                   onMouseOver={e => e.currentTarget.style.transform = "scale(1.1)"}
+                   onMouseOut={e => e.currentTarget.style.transform = "scale(1)"} />
+            </a>
+            <a href="mailto:d3lirio01@gmail.com" >
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" 
+                   alt="Gmail" style={{width:"35px", height:"35px", transition:"transform 0.2s"}}
+                   onMouseOver={e => e.currentTarget.style.transform = "scale(1.1)"}
+                   onMouseOut={e => e.currentTarget.style.transform = "scale(1)"} />
+            </a>
+          </div>
           <div style={{}}>
             <p className='gradientTxt' style={{fontSize:"4.8rem", margin:"1vh", fontWeight: "700" }}>
               World-class coach <br></br> right in your phone
@@ -29,14 +45,18 @@ function App() {
             <ChangingText></ChangingText>
           </div>
           <div style={{width:"100%"}}>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNnvzz5JRGhP8wyLbSyGhI3XWY5LUx6USZJSU00MXFqu5bIA/viewform?usp=header" target='_blank'>
           <button className='waitlistButton' style={{width:"15rem", marginTop:"3vh"}}>
             Join waitlist
           </button>
+          </a>
           </div>
           <div>
             <VideoPlayer></VideoPlayer>
           </div>
       </div>
+
+      
       <div className='secondSection' id="features" style={{display:"flex", justifyContent:"center", flexDirection:"column", alignItems:"center", paddingBottom:"17vh"}}>
         <div>
           <p className='gradientTxt2' style={{fontSize:"4rem", margin:"1vh", fontWeight: "700" }}>
