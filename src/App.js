@@ -21,11 +21,7 @@ function App() {
       
       <div style={{height: "", backgroundColor: "#fff5f4", paddingTop:"11vh", display:"flex", justifyContent:"center", flexDirection:"column"}}>
         <div className="socialLinks">
-            <a href="https://www.linkedin.com/company/d3lirio/about/" target='_blank' rel="noopener noreferrer">
-              <img src={linked} alt="LinkedIn" style={{width:"35px", height:"35px", transition:"transform 0.2s"}} 
-                   onMouseOver={e => e.currentTarget.style.transform = "scale(1.1)"}
-                   onMouseOut={e => e.currentTarget.style.transform = "scale(1)"} />
-            </a>
+           
             <a href="mailto:d3lirio01@gmail.com" >
               <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" 
                    alt="Gmail" style={{width:"35px", height:"35px", transition:"transform 0.2s"}}
